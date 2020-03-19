@@ -9,10 +9,15 @@
 
 	<name>thinkstars_oca</name>
 	<description>Thinkstars OCA Preparation</description>
+	<packaging>pom</packaging>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
+	<modules>
+		<module>thinkstars_oca_oo</module>
+	</modules>
 
 	<build>
 		<plugins>
